@@ -1,6 +1,4 @@
 import { Grid, GridItem, Show } from "@chakra-ui/react";
-import { color } from "framer-motion";
-import React from "react";
 import NavBar from "./components/NavBar";
 import GameGrid from "./components/GameGrid";
 import GenreList from "./components/GenreList";
