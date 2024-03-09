@@ -3,6 +3,7 @@ import { color } from "framer-motion";
 import React from "react";
 import NavBar from "./components/NavBar";
 import GameGrid from "./components/GameGrid";
+import GenreList from "./components/GenreList";
 
 const App = () => {
   return (
@@ -16,8 +17,8 @@ const App = () => {
         <NavBar />
       </GridItem>
       <Show above="lg">
-        <GridItem area="aside" bg="blue">
-          Aside
+        <GridItem area="aside">
+          <GenreList />
         </GridItem>
       </Show>
       <GridItem area="main">
