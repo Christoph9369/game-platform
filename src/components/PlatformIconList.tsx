@@ -21,7 +21,7 @@ const PlatformIconList = ({ platforms }: Props) => {
   const iconMap: { [key: string]: IconType } = {
     pc: FaWindows,
     playstation: FaPlaystation,
-    xbox: FaPlaystation,
+    xbox: FaXbox,
     nitendo: SiNintendo,
     mac: FaApple,
     linux: FaLinux,
